@@ -1,4 +1,4 @@
-How To Run the Application
+**How To Run the Application**
 
 
 Prerequisite:
@@ -9,7 +9,7 @@ Prerequisite:
 2 - NPM
 
 
-Install Application:
+**Install Application:**
 
 
 1 - Unizip / Clone the code from gitHub on your local computer.
@@ -28,7 +28,7 @@ clone command : git clone https://github.com/vedvns/MerchantGuide.git
 
 
 
-Solution Assumptions:
+**Solution Assumptions:**
 
 1 - All the inputs are case-insensitive (for all currency,units and Roman numerals)
   Ex. Gold gold GOLD are same
@@ -40,10 +40,8 @@ It is acceptable to input credit values in floating point number.
 credit/value which should be greater than(or equal) 0.00001 (i.e. ratio less than this, is not acceptable)
 
 
+**project Structure** / Project Design: Structure of the project is as below.
 
-Project Design: Structure of the project is as below.
-
-project Structure
   - src - Source code are kept here, developers need to put all code here.
   - dist - final code after the build, js code will be minified for better performance.
 
@@ -65,12 +63,12 @@ project Structure
   - README.md - text information related to project/application.
 
 
-Build:
+**Build:**
 
  Run grunt command for build the application, application works on the clean and minified source code in dist.
 
 
-Unit Test:
+**Unit Test:**
 
 Run npm test to run the unit test cases.
 
