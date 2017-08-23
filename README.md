@@ -20,11 +20,11 @@ clone command : git clone https://github.com/vedvns/MerchantGuide.git
 
 3 - Install: Run Command 'npm install' from command line, all the dependencies and devDependencies will be installed locally.
 
-4 - Build: Run Command 'gulp' from command line for 'build'.
+4 - Build: Run Command 'gulp' from command line for 'build' the project.
 
 5 - Run: Run Command 'node app' from command line.
 
-6 - Test: Run Command 'npm test' for Run the Test.
+6 - Test: Run Command 'npm test' to Run the Test.
 
 
 
@@ -76,19 +76,32 @@ Run npm test to run the unit test cases.
 
 
 1 - ReadStream interface is created and 'line' event is attached for listening.
+
 2 - Each new Line is trimmed and forwarded to MerchantGuide function for further processing.
+
 3 - In MerchantGuide function line is matched again 4 different Regular Expressions to
 detect type of line(assignment/query).If line does not match any of the expressions
 it is declared as undetected type.
+
 4 - There are 4 types of lines
+
       a - Assignment: assignment lines assign intergalaxy currency to Roman numeral
+
       b - Credit: credit line give currency conversion in units(metal or scrap) with
       credit value.
+
       c - How Much query: Howmuch query is used to get intergalaxy currency value in
        decimals.
+
       d - How Many query: Howmany query is used to get credit values for inter-galaxy currency.
+
 5 - Function is used to convert inter-galaxy currency to it's value.
 Function Works as follows,
+
       a - Convert inter-Galaxy currency array to respective roman numeral, while converting use saved inter-galaxy currency for conversion.
+
       b - Check if constructed roman numeral is valid.
+
       c - Convert that roman numeral to decimal number.
+
+6 - Test Input file : data/testinput.txt
