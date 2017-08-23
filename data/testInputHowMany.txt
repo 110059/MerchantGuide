@@ -1,0 +1,8 @@
+ved is C
+prakash  is X
+maurya is    V
+ved ved gold is 60 credits
+prakash prakash silver is 8000 credits
+prakash Ved iron is 1900 credits
+how many Credits is ved prakash Silver ?
+how many Credits is ved maurya Gold ?

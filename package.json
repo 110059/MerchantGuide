@@ -1,0 +1,26 @@
+{
+  "name": "merchant-guide",
+  "version": "1.0.0",
+  "description": "merchant guide solution using java script",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "^1.0.0",
+    "gulp-util": "^3.0.8",
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "keywords": [
+    "merchant",
+    "guide",
+    "roman"
+  ],
+  "author": "ved prakash maurya",
+  "license": "ISC"
+}
