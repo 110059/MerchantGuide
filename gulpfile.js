@@ -1,3 +1,6 @@
+/*
+  gulp:script for build the application
+*/
 var gulp  = require('gulp'),
     gutil = require('gulp-util'),
     minify = require('gulp-minify');
