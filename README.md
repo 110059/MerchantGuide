@@ -40,7 +40,7 @@ It is acceptable to input credit values in floating point number.
 credit/value which should be greater than(or equal) 0.00001 (i.e. ratio less than this, is not acceptable)
 
 
-**project Structure** / Project Design: Structure of the project is as below.
+**Project Structure**
 
   - src - Source code are kept here, developers need to put all code here.
   - dist - final code after the build, js code will be minified for better performance.
@@ -96,7 +96,8 @@ it is declared as undetected type.
 5 - Function is used to convert inter-galaxy currency to it's value.
 Function Works as follows,
 
-      a - Convert inter-Galaxy currency array to respective roman numeral, while converting use saved inter-galaxy currency for conversion.
+      a - Convert inter-Galaxy currency array to respective roman numeral, while converting use saved
+      inter-galaxy currency for conversion.
 
       b - Check if constructed roman numeral is valid.
 
