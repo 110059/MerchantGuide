@@ -8,6 +8,8 @@ Prerequisite:
 
 2 - NPM
 
+3 - Git
+
 
 **Install Application:**
 
@@ -70,7 +72,7 @@ credit/value which should be greater than(or equal) 0.00001 (i.e. ratio less tha
 
 **Unit Test:**
 
-Run npm test to run the unit test cases.
+Run npm test to run the unit test cases. using node-jasmine module of jasmine for test.
 
 
 1 - ReadStream interface is created and 'line' event is attached for listening.

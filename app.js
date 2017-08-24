@@ -26,3 +26,5 @@ Reader.on('line', function(line) {
 process.on('uncaughtException', function(err) {
 	console.log(err);
 });
+
+exports.Reader = Reader;
